@@ -319,7 +319,7 @@ a.navbar-brand.text-logo { text-transform: uppercase; font-weight: 900; font-siz
 /* Image Banner
 ------------------------------------------------------------------------*/
 
-.frontpage-banner.image-banner{ position:relative; overflow:hidden; color:#fff; }
+.frontpage-banner.image-banner{ position:relative; overflow:hidden; color:#fff; width: 100%;}
 .frontpage-banner.image-banner.banner-featured-image { padding:100px 0 80px;  }
 .frontpage-banner.image-banner.banner-custom-header { padding:100px 0 80px;  }
 .frontpage-banner.banner-none { padding-top: 60px; padding-bottom: 50px;  }
