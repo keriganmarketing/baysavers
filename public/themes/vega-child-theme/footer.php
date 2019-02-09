@@ -10,15 +10,14 @@
 
 <!-- ========== Footer Nav and Copyright ========== -->
 <div class="footer">
-    <div class="container wrapper">
+    <div class="container">
         <div class="row">
             <div class="col-md-4">
                 <!-- Copyright and Credits -->
                 <?php $vega_wp_footer_copyright_message = vega_wp_get_option('vega_wp_footer_copyright_message'); ?>
                 <?php $vega_wp_footer_credit_message = vega_wp_get_option('vega_wp_footer_credit_message'); ?>
-                <div class="copyright"><?php echo wp_kses_post($vega_wp_footer_copyright_message); ?><br /><span class="credit"><?php echo wp_kses_post("Site by KMA"); ?></span></div>
+                <div class="copyright"><?php echo wp_kses_post($vega_wp_footer_copyright_message); ?><br /><span class="credit"><?php echo ("Site by KMA"); ?></span></div>
                 <!-- /Copyright and Credits -->
-                <div class="push"></div>
             </div>
         </div>
     </div>
