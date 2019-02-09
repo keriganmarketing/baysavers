@@ -36,6 +36,17 @@ body {
     font-size: 15px;
     line-height: 40px;
 }
+
+.frontpage-banner.image-banner .block-title {
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-weight: 900;
+}
+
+.frontpage-banner.image-banner .description {
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
 }
 
 .frontpage-banner.image-banner{ position:relative; overflow:hidden; color:#fff; width: 100%;}
