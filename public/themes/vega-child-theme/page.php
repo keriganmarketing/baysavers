@@ -12,7 +12,7 @@
 <?php get_template_part('parts/banner'); ?>
 
 <!-- ========== Page Content ========== -->
-<div class="section page-content bg-white">
+<div class="section page-content bg-white wrapper">
     <div class="container">
         <div class="row">
             
@@ -57,6 +57,7 @@
             
         </div>
     </div>
+    <div class="push"></div>
 </div>
 <!-- ========== /Page Content ========== -->
 
