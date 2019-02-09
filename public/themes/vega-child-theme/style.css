@@ -19,9 +19,11 @@ p {
     margin-inline-end: 0px;
 }
 body {
-    font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: 2rem;
-    line-height: 1.5;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
 }
 
 .frontpage-banner.image-banner{ position:relative; overflow:hidden; color:#fff; width: 100%;}
