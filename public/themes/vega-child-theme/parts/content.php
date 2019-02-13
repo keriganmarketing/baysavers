@@ -129,6 +129,4 @@ else $post_class = '';
     <?php } ?>
 
 </div>
-        </div>
-
 <!-- /Post -->

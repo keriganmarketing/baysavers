@@ -14,7 +14,6 @@
 <!-- ========== Page Content ========== -->
 <div class="section page-content bg-white">
     <div class="container">
-        <div class="row">
             
             <?php 
             $vega_wp_page_sidebar = vega_wp_get_option('vega_wp_page_sidebar'); 
