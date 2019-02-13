@@ -42,7 +42,7 @@ foreach($arr as $k=>$v){
 
 <!-- ========== Content Starts ========== -->
     <div class="section blog-feed bg-white">
-        <div class="container wrapper">
+        <div class="container">
             <div class="row">
             
                 <div class="col-md-9 blog-feed-column">
@@ -65,7 +65,6 @@ foreach($arr as $k=>$v){
                             <?php if( get_next_posts_link() ) { next_posts_link('<span class="ic ic-angle-left"></span>'); }?>
                             <?php if( get_previous_posts_link() ) { previous_posts_link('<span class="ic ic-angle-right"></span>'); } ?>
                         </div>
-                        <div class="push"></div>
                     </div>
                     <!-- /Pagination -->
                     
