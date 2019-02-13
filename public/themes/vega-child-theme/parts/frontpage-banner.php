@@ -44,7 +44,7 @@ if($vega_wp_frontpage_banner_image != '' || $header_image != '') {
     <div class="container">
         <?php if( display_header_text() ) { ?>
         <div class="inner">
-            <h1 class="block-title wow zoomIn"><?php echo esc_html($vega_wp_frontpage_banner_heading) ?></h1>
+            <h1 class="block-title wow zoomIn; width: 575px;"><?php echo esc_html($vega_wp_frontpage_banner_heading) ?></h1>
             <div class="text-center hidden-xs wow zoomIn description"><?php echo wp_kses_post($vega_wp_frontpage_banner_text) ?></div>
         </div><div class="helper"></div>
         <?php } else { ?>
