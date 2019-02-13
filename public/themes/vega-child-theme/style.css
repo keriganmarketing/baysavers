@@ -78,7 +78,7 @@ body {
     }
 }
 
-.nav-foot {
+.nav-foot, .nav-foot li, .nav-foot li a {
     margin: auto;
     width: 50%;
     padding: 10px;
