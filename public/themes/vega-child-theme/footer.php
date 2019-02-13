@@ -5,6 +5,9 @@
 * @package vega
 */
 ?>
+<?php
+$link_address = "https://keriganmarketing.com/"
+?>
 
 <?php //('footer'); ?>
 
@@ -35,7 +38,6 @@
                 <!-- Copyright and Credits -->
                 <?php $vega_wp_footer_copyright_message = vega_wp_get_option('vega_wp_footer_copyright_message'); ?>
                 <?php $vega_wp_footer_credit_message = vega_wp_get_option('vega_wp_footer_credit_message'); ?>
-                $link_address = https://keriganmarketing.com/
                 <div class="copyright"><?php echo wp_kses_post($vega_wp_footer_copyright_message); ?><br /><span class="credit"><?php echo "<a href='".$link_address."'>Site by KMA</a>"; ?></span></div>
                 <!-- /Copyright and Credits -->
             </div>
