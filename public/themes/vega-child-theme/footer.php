@@ -6,7 +6,7 @@
 */
 ?>
 
-<?php get_sidebar('footer'); ?>
+<?php //('footer'); ?>
 
 <!-- ========== Footer Nav and Copyright ========== -->
 <div class="footer">
