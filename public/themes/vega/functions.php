@@ -570,4 +570,36 @@ function vega_wp_example_frontpage_content(){
     echo '<h2 class="block-title wow zoomIn">' . esc_html($random_page->post_title) . '</h2>';
     echo '<div class="wow fadeInUp">'. $random_page->post_content .'</div>';
 }
+
+#vega_wp_example_sidebar_footer
+function vega_wp_example_sidebar_footer(){
+    echo '<div class="footer-widgets bg-grey-light-3">';
+    echo '<div class="container">';
+    echo '<div class="row">';
+    echo '<div class="col-md-3 footer-widget footer-widget-col-1">';
+    the_widget('WP_Widget_Pages', 'title=' . __('Pages', 'vega') , 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    echo '</div>';
+    echo '<div class="col-md-3 footer-widget footer-widget-col-2">';
+    the_widget('WP_Widget_Recent_Posts', 'title=' . __('Recent Posts', 'vega') , 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    echo '</div>';
+    echo '<div class="col-md-3 footer-widget footer-widget-col-3">';
+    the_widget('WP_Widget_Categories', 'title=' . __('Categories', 'vega') , 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    echo '</div>';
+    echo '<div class="col-md-3 footer-widget footer-widget-col-3">';
+    the_widget( 'WP_Widget_Meta', 'title=' . __('Meta', 'vega') , 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    echo '</div>';
+    echo '</div></div></div>';
+}
+
+#vega_wp_example_sidebar
+function vega_wp_example_sidebar(){
+    echo '<div class="sidebar-widgets" >';
+    the_widget('WP_Widget_Search');
+    the_widget('WP_Widget_Pages', 'title=' . __('Pages', 'vega') , 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    the_widget('WP_Widget_Recent_Posts', 'title=' . __('Recent Posts', 'vega') , 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    the_widget( 'WP_Widget_Archives', 'title=' . __('Archives', 'vega'), 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    the_widget( 'WP_Widget_Categories', 'title=' . __('Categories', 'vega'), 'before_title=<h3 class="widget-title">&after_title=</h3>&before_widget=<div class="widget">&after_widget=</div>');
+    echo '</div>';
+}
+
 ?>
