@@ -60,10 +60,5 @@ if ( is_active_sidebar( 'footer_1' ) || is_active_sidebar( 'footer_2' ) || is_ac
     </div>
 </div>
 <!-- ========== /Footer Widgets ========== -->
-<?php }  
-    else { 
-        vega_wp_example_sidebar_footer(); 
-    } 
-}
-?>
+<?php }} ?>
 
