@@ -77,15 +77,3 @@ body {
         height: 350px;
     }
 }
-
-.nav-foot, .nav-foot li, .nav-foot li a {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
-
-@media screen and (min-width: 768px) {
-    .nav-foot{ list-style:none; margin:0;  padding:0 }
-    .nav-foot li{ display:inline-block; font-family:'Lato', sans-serif; margin-right:20px; font-size:12px; }
-    .nav-foot li a{ display:block; font-weight:600; color:#fff; }
-}
