@@ -34,7 +34,7 @@ $link_address = "https://keriganmarketing.com/"
                 <?php endif; ?>
                 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <!-- Copyright and Credits -->
                 <?php $vega_wp_footer_copyright_message = vega_wp_get_option('vega_wp_footer_copyright_message'); ?>
                 <?php $vega_wp_footer_credit_message = vega_wp_get_option('vega_wp_footer_credit_message'); ?>
