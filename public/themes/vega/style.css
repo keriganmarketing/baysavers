@@ -303,7 +303,7 @@ a.navbar-brand.text-logo { text-transform: uppercase; font-weight: 900; font-siz
 /* Page Banner 
 ------------------------------------------------------------------------*/
 
-.jumbotron{ background:url(assets/img/bg_slide.png) repeat 0 0 #ebebea; margin:0; padding:80px 0 60px; line-height:26px; }
+.jumbotron{ background:url(assets/img/bg_slide.png) repeat 0 0; margin:0; padding:80px 0 60px; line-height:26px; }
 /* .jumbotron.parallax-bg { background: none !important;} */
 
 /* .home .jumbotron{ background:url(assets/img/bg_slide.png) repeat 0 0 #ebebea; margin:0; padding:180px 0 160px; line-height:26px; } */
@@ -319,7 +319,7 @@ a.navbar-brand.text-logo { text-transform: uppercase; font-weight: 900; font-siz
 /* Image Banner
 ------------------------------------------------------------------------*/
 
-.frontpage-banner.image-banner{ position:relative; overflow:hidden; color:#fff; width: 100%;}
+.frontpage-banner.image-banner{ position:relative; overflow:hidden;width: 100%;}
 .frontpage-banner.image-banner.banner-featured-image { padding:100px 0 80px;  }
 .frontpage-banner.image-banner.banner-custom-header { padding:100px 0 80px;  }
 .frontpage-banner.banner-none { padding-top: 60px; padding-bottom: 50px;  }
