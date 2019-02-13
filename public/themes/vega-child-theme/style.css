@@ -49,21 +49,24 @@ body {
 
 }
 
-html, body {
-    height: 100%;
-    margin: 0;
-  }
-  .wrapper {
-    min-height: 100%;
-  
-    /* Equal to height of footer */
-    /* But also accounting for potential margin-bottom of last child */
-    margin-bottom: -50px;
-  }
-  .footer,
-  .push {
-    height: 50px;
-  }
+.navbar-custom .navbar-nav > li > a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    padding: 25px 12px;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+    color: #010101;
+    font-size: 15px;
+    line-height: 40px;
+}
 
-.frontpage-banner.image-banner{ position:relative; overflow:hidden; color:#fff; width: 100%;}
+.frontpage-banner.image-banner { 
+    position:relative; 
+    overflow:hidden; 
+    color:#fff; 
+    width: 100%;
+}
 
+.banner-custom-header {
+    height: 350px;
+}
