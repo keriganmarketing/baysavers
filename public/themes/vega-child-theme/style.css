@@ -72,7 +72,7 @@ body {
     height: 175px;
 }
 
-@media (mid-width: 768px) {
+@media(mid-width: 768px) {
     .banner-custom-header {
         height: 350px;
     }
