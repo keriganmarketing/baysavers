@@ -63,8 +63,7 @@ body {
 
 .frontpage-banner.image-banner { 
     position:relative; 
-    overflow:hidden; 
-    color:#fff; 
+    overflow:hidden;
     width: 100%;
 }
 
